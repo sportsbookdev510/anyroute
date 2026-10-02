@@ -1,0 +1,189 @@
+.CostEstimator-module__lVhHDa__root {
+  gap: 40px;
+  min-width: 0;
+  display: grid;
+}
+.CostEstimator-module__lVhHDa__root h2 {
+  font-size: clamp(24px, 3vw, 32px);
+}
+.CostEstimator-module__lVhHDa__inputs {
+  border: 1px solid var(--line);
+  background: var(--white);
+  padding: clamp(16px, 3vw, 28px);
+}
+.CostEstimator-module__lVhHDa__intro {
+  gap: 14px;
+  margin-bottom: 24px;
+  display: grid;
+}
+.CostEstimator-module__lVhHDa__intro p,
+.CostEstimator-module__lVhHDa__note {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+.CostEstimator-module__lVhHDa__controls {
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 16px;
+  display: grid;
+}
+.CostEstimator-module__lVhHDa__root label {
+  min-width: 0;
+  font: 500 11px/1.5 var(--mono);
+  gap: 8px;
+  display: grid;
+}
+.CostEstimator-module__lVhHDa__root input,
+.CostEstimator-module__lVhHDa__root select,
+.CostEstimator-module__lVhHDa__root textarea {
+  border: 1px solid var(--line);
+  background: var(--paper);
+  width: 100%;
+  min-width: 0;
+  min-height: 44px;
+  font: 400 14px/1.5 var(--sans);
+  border-radius: 0;
+  padding: 11px;
+}
+.CostEstimator-module__lVhHDa__root textarea {
+  resize: vertical;
+}
+.CostEstimator-module__lVhHDa__text {
+  margin-top: 20px;
+}
+.CostEstimator-module__lVhHDa__text small {
+  color: var(--muted);
+  font: 400 12px/1.5 var(--sans);
+}
+.CostEstimator-module__lVhHDa__system {
+  margin-top: 20px;
+}
+.CostEstimator-module__lVhHDa__system summary {
+  cursor: pointer;
+  padding: 10px 0;
+  font-size: 14px;
+}
+.CostEstimator-module__lVhHDa__summary {
+  border-top: 1px solid var(--line);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-top: 20px;
+  padding: 20px 0 12px;
+  font-size: 14px;
+  display: flex;
+}
+.CostEstimator-module__lVhHDa__resultHead {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 14px;
+  margin-bottom: 20px;
+  display: flex;
+}
+.CostEstimator-module__lVhHDa__resultHead span {
+  color: var(--muted);
+  font: 400 11px/1.5 var(--mono);
+}
+.CostEstimator-module__lVhHDa__search {
+  grid-template-columns: minmax(0, 1fr) minmax(180px, 260px);
+  gap: 16px;
+  margin-bottom: 20px;
+  display: grid;
+}
+.CostEstimator-module__lVhHDa__note {
+  margin: 12px 0;
+}
+.CostEstimator-module__lVhHDa__rows {
+  margin-top: 24px;
+  display: grid;
+}
+.CostEstimator-module__lVhHDa__row {
+  border: 1px solid var(--line);
+  background: var(--white);
+  border-bottom: 0;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 20px 28px;
+  padding: 24px 20px;
+  display: grid;
+}
+.CostEstimator-module__lVhHDa__row:last-child {
+  border-bottom: 1px solid var(--line);
+}
+.CostEstimator-module__lVhHDa__row[data-cheapest] {
+  box-shadow: inset 3px 0 var(--signal-deep);
+}
+.CostEstimator-module__lVhHDa__model {
+  gap: 12px;
+  min-width: 0;
+  display: grid;
+}
+.CostEstimator-module__lVhHDa__modelHeading {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+.CostEstimator-module__lVhHDa__model h3 {
+  overflow-wrap: anywhere;
+  font-size: 20px;
+}
+.CostEstimator-module__lVhHDa__cheapest {
+  background: var(--signal-tint);
+  color: var(--signal-deep);
+  font: 500 10px/1.4 var(--mono);
+  padding: 5px 7px;
+}
+.CostEstimator-module__lVhHDa__providers {
+  color: var(--muted);
+  overflow-wrap: anywhere;
+  font-size: 13px;
+}
+.CostEstimator-module__lVhHDa__rates {
+  font: 400 10px/1.7 var(--mono);
+  overflow-wrap: anywhere;
+}
+.CostEstimator-module__lVhHDa__amounts {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-content: center;
+  gap: 18px;
+  margin: 0;
+  display: grid;
+}
+.CostEstimator-module__lVhHDa__amounts dt {
+  color: var(--muted);
+  font: 400 10px/1.5 var(--mono);
+  margin-bottom: 6px;
+}
+.CostEstimator-module__lVhHDa__amounts dd {
+  font: 500 14px/1.5 var(--mono);
+  overflow-wrap: anywhere;
+  margin: 0;
+}
+.CostEstimator-module__lVhHDa__links {
+  flex-wrap: wrap;
+  grid-column: 1/-1;
+  gap: 12px 24px;
+  display: flex;
+}
+.CostEstimator-module__lVhHDa__links a {
+  white-space: normal;
+  align-items: center;
+  min-height: 44px;
+  display: inline-flex;
+}
+@media (max-width: 760px) {
+  .CostEstimator-module__lVhHDa__row {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 20px 16px;
+  }
+}
+@media (max-width: 480px) {
+  .CostEstimator-module__lVhHDa__search {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .CostEstimator-module__lVhHDa__amounts dd {
+    font-size: 12px;
+  }
+}

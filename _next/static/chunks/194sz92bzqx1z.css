@@ -1,0 +1,37 @@
+.Webhooks-module__kST8DW__destinations {
+  gap: 24px;
+  display: grid;
+}
+.Webhooks-module__kST8DW__events {
+  border: 1px solid var(--line);
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  margin: 16px 0;
+  padding: 16px;
+  display: flex;
+}
+.Webhooks-module__kST8DW__events label {
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  display: flex;
+}
+.Webhooks-module__kST8DW__secret {
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+  margin: 16px 0;
+  display: block;
+}
+.Webhooks-module__kST8DW__log {
+  max-width: 100%;
+  overflow-x: auto;
+}
+.Webhooks-module__kST8DW__actions {
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 16px 0;
+  display: flex;
+}
+.Webhooks-module__kST8DW__destinations h3 {
+  overflow-wrap: anywhere;
+}

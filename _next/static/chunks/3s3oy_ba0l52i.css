@@ -1,0 +1,97 @@
+.activity-module__oLIeZW__scroll {
+  margin: 24px 0;
+  overflow-x: auto;
+}
+.activity-module__oLIeZW__table {
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%;
+  font-size: 13px;
+}
+.activity-module__oLIeZW__table caption {
+  text-align: left;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+.activity-module__oLIeZW__table th,
+.activity-module__oLIeZW__table td {
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+  overflow-wrap: anywhere;
+  min-width: 110px;
+  padding: 12px;
+}
+.activity-module__oLIeZW__table small,
+.activity-module__oLIeZW__table a {
+  margin-top: 6px;
+  display: block;
+}
+.activity-module__oLIeZW__table td:last-child {
+  white-space: pre-wrap;
+  max-width: 220px;
+  font-family: monospace;
+}
+.starters-module__xeCDna__settings {
+  border-top: 1px solid var(--line);
+  gap: 0;
+  margin: 20px 0;
+  display: grid;
+}
+.starters-module__xeCDna__settings > div {
+  border-bottom: 1px solid var(--line);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: 16px;
+  padding: 12px 0;
+  display: grid;
+}
+.starters-module__xeCDna__settings dt {
+  font: 500 12px/1.6 var(--mono);
+}
+.starters-module__xeCDna__settings dd {
+  overflow-wrap: anywhere;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.starters-module__xeCDna__details {
+  margin: 20px 0;
+}
+.starters-module__xeCDna__details summary {
+  cursor: pointer;
+  font: 500 12px/1.6 var(--mono);
+}
+.starters-module__xeCDna__details summary:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 4px;
+}
+.starters-module__xeCDna__json {
+  background: var(--paper-2);
+  max-width: 100%;
+  max-height: 420px;
+  font: 12px/1.6 var(--mono);
+  padding: 16px;
+  overflow: auto;
+}
+.starters-module__xeCDna__fieldset {
+  border: 0;
+  border-top: 1px solid var(--line);
+  min-width: 0;
+  margin: 24px 0;
+  padding: 20px 0 0;
+}
+.starters-module__xeCDna__fieldset legend {
+  font: 500 12px var(--mono);
+  padding-right: 12px;
+}
+.starters-module__xeCDna__result {
+  border: 1px solid var(--line);
+  background: var(--paper-2);
+  margin-top: 24px;
+  padding: 16px;
+}
+@media (max-width: 600px) {
+  .starters-module__xeCDna__settings > div {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
+  }
+}
